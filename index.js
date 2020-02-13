@@ -3,7 +3,7 @@ const TicTacToe = require('./src/tic-tac-toe.js');
 window.game = new TicTacToe();
 
 resetBtn.addEventListener('click', () => {
-    window.game = new TicTacToe();
+    window.game = new TicTacToe();///test
     render();
 });
 
